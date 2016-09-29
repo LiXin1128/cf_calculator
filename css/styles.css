@@ -1,0 +1,40 @@
+body{
+	background-color:#DDD;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+#cal{
+	width: 320px;
+	height: 360px;
+	background-color: #fff;
+	margin: 0 auto;
+	box-shadow: 0 10px 10px #999;
+	border-radius: 5px;
+}
+.screen{
+	height: 35px;
+	border: 2px solid #ddd;
+	border-radius: 5px 5px 0 0;
+}
+.row{
+	margin:0 auto;
+}
+button{
+	width: 77px;
+	height: 77px;
+	margin-top: 3px;
+	background-color: #e7e7e7;
+	border: 2px solid #c6c6c6;
+	border-radius: 5px;
+	font-size: 25px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	cursor: pointer;
+}
+button:hover{
+	background-color: red;
+	background: white;
+	color:#0066ff;
+}
